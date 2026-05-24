@@ -1098,7 +1098,7 @@ function M.apply(c)
   HI(0, "NeogitCommitViewDescription", { bg = surface_main, fg = accent_magenta, bold = true })
 
   HI(0, "NeogitDiffHeader", { bg = surface_main, fg = diff_change, bold = true })
-  HI(0, "NeogitDiffHeaderCursor", { bg = neutral_1, fg = diff_change, bold = true })
+  HI(0, "NeogitDiffHeaderCursor", { bg = neutral_2, fg = diff_change, bold = true })
   HI(0, "NeogitDiffHeaderHighlight", { bg = surface_main, fg = diff_change, bold = true })
   HI(0, "NeogitFilePath", { bg = surface_main, fg = accent_yellow, bold = true })
 
@@ -1108,21 +1108,21 @@ function M.apply(c)
   HI(0, "NeogitDiffAddHighlight", { bg = surface_main, fg = diff_add, bold = false })
   HI(0, "NeogitDiffDeleteHighlight", { bg = surface_main, fg = diff_delete, bold = false })
 
-  HI(0, "NeogitDiffContextCursor", { bg = neutral_1, fg = text_primary, bold = false })
-  HI(0, "NeogitDiffAddCursor", { bg = neutral_1, fg = support_green, bold = false })
-  HI(0, "NeogitDiffDeleteCursor", { bg = neutral_1, fg = support_red, bold = false })
+  HI(0, "NeogitDiffContextCursor", { bg = neutral_2, fg = text_primary, bold = false })
+  HI(0, "NeogitDiffAddCursor", { bg = neutral_2, fg = support_green, bold = false })
+  HI(0, "NeogitDiffDeleteCursor", { bg = neutral_2, fg = support_red, bold = false })
 
   HI(0, "NeogitChangeAdded", { fg = diff_add, bold = true })
   HI(0, "NeogitChangeModified", { fg = diff_change, bold = true })
   HI(0, "NeogitChangeDeleted", { fg = diff_delete, bold = true })
 
   HI(0, "NeogitHunkHeader", { bg = surface_main, fg = accent_gold, bold = true })
-  HI(0, "NeogitHunkHeaderCursor", { bg = neutral_1, fg = accent_gold, bold = true })
+  HI(0, "NeogitHunkHeaderCursor", { bg = neutral_2, fg = accent_gold, bold = true })
   HI(0, "NeogitHunkHeaderHighlight", { bg = surface_main, fg = accent_gold, bold = true })
 
-  HI(0, "CursorLine", { bg = surface_main })
-  HI(0, "CursorLineNr", { bg = surface_main, fg = text_muted })
-  HI(0, "CursorLineSign", { bg = surface_main })
+  HI(0, "CursorLine", { bg = neutral_1 })
+  HI(0, "CursorLineNr", { bg = neutral_1, fg = text_muted })
+  HI(0, "CursorLineSign", { bg = neutral_1 })
 end
 
 return M

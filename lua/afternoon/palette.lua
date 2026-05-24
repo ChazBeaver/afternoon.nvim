@@ -15,7 +15,7 @@ local M = {
   fg_3              = "#76726F",
 
   neutral_0         = "#000000",
-  neutral_1         = "#131518",
+  neutral_1         = "#16181B",
   neutral_2         = "#1F2327",
   neutral_3         = "#32363A",
   neutral_9         = "#FFFFFF",
